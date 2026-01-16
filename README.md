@@ -1,5 +1,5 @@
 # hardbird_attack
-PoC showcasing the SEPROM hardbird attack on A7 SoCs via getting TZ r/w.
+PoC showcasing the SEPROM hardbird attack on Apple A7 SoCs by getting TZ r/w.
 
 ## Usage
 Compile the hardbird_attack Pongo module:
@@ -31,6 +31,8 @@ hardbird_attack
 ## Credits
 [Proteas](https://x.com/ProteasWang) - discovered the hardbird vulnerability
 
-[TheRealClarity](https://x.com/imnotclarity) - helped me get started and helped me understand the vulnerability significantly
+[checkra1n](https://x.com/intent/follow?screen_name=checkra1n) - developed PongoOS, etc
+
+[TheRealClarity](https://x.com/imnotclarity) - helped me get started, helped me understand the vulnerability significantly and informed me about the mailbox register ptr issue + fix
 
 [Alfie](https://x.com/alfiecg_dev) - also helped me understand the vulnerability
