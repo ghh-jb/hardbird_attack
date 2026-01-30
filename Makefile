@@ -6,7 +6,7 @@ LDFLAGS = -Xlinker -kext
 
 all : hardbird_attack
 
-hardbird : hardbird.c
+hardbird_attack : hardbird.c
 	$(CC) $(CFLAGS) $(LDFLAGS) hardbird.c -o hardbird_attack
 
 clean:
